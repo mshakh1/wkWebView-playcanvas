@@ -1,0 +1,29 @@
+body {
+    font-family: Helvetica, arial, sans-serif;
+}
+
+.container {
+    color: #ecf0f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 100%;
+    background-color: rgba(255,255,255, 0.5); 
+}
+
+.glasses {
+    background-color: #34495e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 300px;
+}
